@@ -1,0 +1,27 @@
+schema_version: 1
+skills:
+- id: paper-deep-reader
+  repository: https://github.com/Linwei-Chen/paper-deep-reader-skill
+  commit: 4513c20b4701c3096992110657a80e9413bcea16
+  license: MIT
+  license_file: skills/paper-deep-reader/LICENSE
+  files:
+    skills/paper-deep-reader/.paper-reader.example.yaml: c3814884c9d91c6514a864d11ca309a05b8cb8ce6255f42d56ee155ba08e0944
+    skills/paper-deep-reader/CHANGELOG.md: cc0e7454d39491d46f13a15ce0c93ec4281b9f2d2234be7c46806747bada8f72
+    skills/paper-deep-reader/DESIGN_NOTES.md: b4f3728f9fd447b39f3f629ecac86098f65ecb52ff6e4ad6e35532d7bf947f88
+    skills/paper-deep-reader/LICENSE: fdcbc0a18fc98493d1387ee882929dd910cc0c6a7dd180a64990e89fd48c3c32
+    skills/paper-deep-reader/README.md: 8a4faa41a4b22d4e99bb826a15e5dcd6ffa4ebfdebfe69bdb3ada1ad3bb91ff8
+    skills/paper-deep-reader/SKILL.md: 33bd5cf15d56339606ff6b0c4de55df492698bc7bb9a87ff037286dfb2ec3977
+    skills/paper-deep-reader/agents/openai.yaml: 7c266b951f587770a36c261a8633471848f33ebf18f97c5be728f844c8faac55
+    skills/paper-deep-reader/references/audience-profiles.md: 86506849d51f78571ea76883253f45609260ac543a0d7fb70aaadb84d048c189
+    skills/paper-deep-reader/references/domain-lenses.md: 6941b92d28b332f3a105584a1f7b25e9cd500aacbfc0da2982ec417d086f71cc
+    skills/paper-deep-reader/references/paper-type-lenses.md: 99a79d2c3b12f7eb230bde8b6d838ded57ad5061a99572d3d13fa72017d7c33b
+    skills/paper-deep-reader/references/quality-checklist.md: 0ac044af516e9ddfe2fb86f994bc37c27ea5a86bf4f57b6c9ff07a1cdb5d85db
+    skills/paper-deep-reader/references/reading-protocol.md: 7bae55975079d43376ed50ba47cb8b9c6606a6e8c21d16f056619ac471045822
+    skills/paper-deep-reader/references/report-template.md: d477c48f73c69c130d984d065ec7f36d6d75c2d7acef1bcfdaa54555d58216bf
+    skills/paper-deep-reader/references/source-map-template.json: ed97a575306ad42c82d733691c136df59f294471d58e7c334aed1cc8694327b8
+    skills/paper-deep-reader/references/visual-capability.md: 40fe8d91bf5a86e035141177353094fb2d452e517b163c9fa97ddef0a9436d56
+    skills/paper-deep-reader/requirements.txt: 24d02900757015840412e10409eef404ca99a0b77b8a8e3c9a707223cb833d8a
+    skills/paper-deep-reader/scripts/extract_pdf_assets.py: aeae3e12d405894601c55534b626affb14faa4c7642b1c66df293ad9ccc5db31
+    skills/paper-deep-reader/scripts/validate_report.py: 0757fc824849641a4c6daae3b0554106d7705afbc140b5666d710dc86714cade
+    skills/paper-deep-reader/tests/test_validate_report.py: eb427a4f9b8d11bd7b641bdfaa61ba0ac8f5029e7be7f9baa70f9173f6079821

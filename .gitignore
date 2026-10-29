@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# Real tasks (papers, notes) stay local.
+/tasks/*
+!/tasks/.gitkeep
